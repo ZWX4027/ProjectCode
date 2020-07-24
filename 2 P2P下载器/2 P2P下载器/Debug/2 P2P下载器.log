@@ -1,0 +1,109 @@
+﻿生成启动时间为 2020/7/19 22:24:52。
+     1>项目“C:\Users\zhangqian\Desktop\2 P2P下载器\2 P2P下载器\2 P2P下载器.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\util.hpp(48): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(1453): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+     1>c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(1475): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(1794): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(2144): warning C4244: “=”: 从“uint64_t”转换到“size_t”，可能丢失数据
+     1>c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(2277): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+     1>c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(1415): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+                 c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(2548): 参见对正在编译的函数 模板 实例化“bool httplib::detail::read_content<httplib::Request>(httplib::Stream &,T &,uint64_t,int &,httplib::Progress,httplib::detail::ContentReceiverCore)”的引用
+                 with
+                 [
+                     T=httplib::Request
+                 ]
+     1>c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(1419): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xrefwrap(283): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(228): 参见对正在编译的函数 模板 实例化“_Ret std::_Callable_obj<httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>,false>::_ApplyX<_Rx,_Ty,unsigned __int64>(_Ty &&,unsigned __int64 &&)”的引用
+                 with
+                 [
+                     _Ret=bool
+         ,            _Rx=bool
+         ,            _Ty=const char *
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(228): 参见对正在编译的函数 模板 实例化“_Ret std::_Callable_obj<httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>,false>::_ApplyX<_Rx,_Ty,unsigned __int64>(_Ty &&,unsigned __int64 &&)”的引用
+                 with
+                 [
+                     _Ret=bool
+         ,            _Rx=bool
+         ,            _Ty=const char *
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(226): 编译类 模板 成员函数“bool std::_Func_impl<_MyWrapper,_Alloc,_Ret,const char *,uint64_t>::_Do_call(const char *&&,uint64_t &&)”时
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Func_class<bool,const char *,uint64_t>>
+         ,            _Ret=bool
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(495): 参见对正在编译的类 模板 实例化“std::_Func_impl<_MyWrapper,_Alloc,_Ret,const char *,uint64_t>”的引用
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Func_class<bool,const char *,uint64_t>>
+         ,            _Ret=bool
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(396): 参见对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,const char *,uint64_t>::_Do_alloc<_Myimpl,_Ty,_Alloc>(_Fty &&,_Alloc)”的引用
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+         ,            _Alloc=std::allocator<std::_Func_class<bool,const char *,uint64_t>>
+         ,            _Fty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(396): 参见对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,const char *,uint64_t>::_Do_alloc<_Myimpl,_Ty,_Alloc>(_Fty &&,_Alloc)”的引用
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+         ,            _Alloc=std::allocator<std::_Func_class<bool,const char *,uint64_t>>
+         ,            _Fty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(385): 参见对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,const char *,uint64_t>::_Reset_alloc<_Ty,std::allocator<std::_Func_class<_Ret,const char *,uint64_t>>>(_Fty &&,_Alloc)”的引用
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+         ,            _Fty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+         ,            _Alloc=std::allocator<std::_Func_class<bool,const char *,uint64_t>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(385): 参见对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,const char *,uint64_t>::_Reset_alloc<_Ty,std::allocator<std::_Func_class<_Ret,const char *,uint64_t>>>(_Fty &&,_Alloc)”的引用
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+         ,            _Fty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+         ,            _Alloc=std::allocator<std::_Func_class<bool,const char *,uint64_t>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(671): 参见对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,const char *,uint64_t>::_Reset<_Ty>(_Fty &&)”的引用
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+         ,            _Fty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(671): 参见对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,const char *,uint64_t>::_Reset<_Ty>(_Fty &&)”的引用
+                 with
+                 [
+                     _Ret=bool
+         ,            _Ty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+         ,            _Fty=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+                 ]
+                 c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(2548): 参见对正在编译的函数 模板 实例化“std::function<bool (const char *,uint64_t)>::function<httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>>(_Fx &&)”的引用
+                 with
+                 [
+                     _Fx=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+                 ]
+                 c:\users\zhangqian\desktop\2 p2p下载器\2 p2p下载器\httplib.h(2548): 参见对正在编译的函数 模板 实例化“std::function<bool (const char *,uint64_t)>::function<httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>>(_Fx &&)”的引用
+                 with
+                 [
+                     _Fx=httplib::Server::process_request::<lambda_3d2aa15fc3c4f95882aed6dd016c28d0>
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zhangqian\Desktop\2 P2P下载器\Debug\2 P2P下载器.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\zhangqian\Desktop\2 P2P下载器\Debug\2 P2P下载器.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zhangqian\Desktop\2 P2P下载器\Debug\2 P2P下载器.lib" /MACHINE:X86 Debug\main.obj
+         2 P2P下载器.vcxproj -> C:\Users\zhangqian\Desktop\2 P2P下载器\Debug\2 P2P下载器.exe
+     1>已完成生成项目“C:\Users\zhangqian\Desktop\2 P2P下载器\2 P2P下载器\2 P2P下载器.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.64
